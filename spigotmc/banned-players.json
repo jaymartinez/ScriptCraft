@@ -1,0 +1,58 @@
+[
+  {
+    "uuid": "77cc85ae-388a-46ec-a535-9e2ffef71b29",
+    "name": "DanTDM",
+    "created": "2017-05-27 10:59:47 -0700",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "d54d4458-1d7b-4941-a719-7762d5c35a80",
+    "name": "popularmmos",
+    "created": "2017-05-27 11:00:51 -0700",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "8f312b36-0b60-4675-96b9-39887f9164a8",
+    "name": "SaVaGeSlaYeR",
+    "created": "2017-05-27 11:07:53 -0700",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "b927c2ad-ddcd-47a9-b64a-f252ffe18f5a",
+    "name": "Wallstreet",
+    "created": "2017-05-27 11:07:30 -0700",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "f84c6a79-0a4e-45e0-879b-cd49ebd4c4e2",
+    "name": "Herobrine",
+    "created": "2017-05-27 11:01:08 -0700",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "dbad8b0a-2765-4be5-b0bd-50a635180771",
+    "name": "PrestonPlays",
+    "created": "2017-05-27 11:03:50 -0700",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "66b84d49-951a-4496-944c-9c03d9d032fd",
+    "name": "JojoAteYourTaco",
+    "created": "2017-05-28 20:45:28 -0700",
+    "source": "SavageSlayer5513",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

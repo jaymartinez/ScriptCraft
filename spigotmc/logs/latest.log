@@ -1,0 +1,167 @@
+[19:54:19] [Server thread/INFO]: Starting minecraft server version 1.12-pre5
+[19:54:19] [Server thread/INFO]: Loading properties
+[19:54:19] [Server thread/INFO]: Default game type: SURVIVAL
+[19:54:19] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-60095c9-c7920f4 (MC: 1.12-pre5) (Implementing API version 1.12-pre5-SNAPSHOT)
+[19:54:20] [Server thread/INFO]: Debug logging is disabled
+[19:54:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:54:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:54:20] [Server thread/INFO]: Generating keypair
+[19:54:20] [Server thread/INFO]: Starting Minecraft server on 192.168.0.10:8200
+[19:54:20] [Server thread/INFO]: Using default channel type
+[19:54:20] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:54:20] [Server thread/INFO]: [scriptcraft] Loading scriptcraft v3.2.1-2016-12-23
+[19:54:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:54:20] [Server thread/INFO]: Preparing level "peaceful"
+[19:54:20] [Server thread/INFO]: -------- World Settings For [peaceful] --------
+[19:54:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:54:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:54:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:54:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:54:20] [Server thread/INFO]: View Distance: 10
+[19:54:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:54:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:54:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:54:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:54:20] [Server thread/INFO]: Structure Info Saving: true
+[19:54:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:54:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:54:20] [Server thread/INFO]: Random Lighting Updates: false
+[19:54:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:54:20] [Server thread/INFO]: Max TNT Explosions: 100
+[19:54:20] [Server thread/INFO]: Mob Spawn Range: 4
+[19:54:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:54:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[19:54:21] [Server thread/INFO]: -------- World Settings For [peaceful_nether] --------
+[19:54:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:54:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:54:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:54:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:54:21] [Server thread/INFO]: View Distance: 10
+[19:54:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:54:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:54:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:54:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:54:21] [Server thread/INFO]: Structure Info Saving: true
+[19:54:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:54:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Random Lighting Updates: false
+[19:54:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:54:21] [Server thread/INFO]: Max TNT Explosions: 100
+[19:54:21] [Server thread/INFO]: Mob Spawn Range: 4
+[19:54:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:54:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[19:54:21] [Server thread/INFO]: -------- World Settings For [peaceful_the_end] --------
+[19:54:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:54:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:54:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:54:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:54:21] [Server thread/INFO]: View Distance: 10
+[19:54:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:54:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:54:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:54:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:54:21] [Server thread/INFO]: Structure Info Saving: true
+[19:54:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:54:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:54:21] [Server thread/INFO]: Random Lighting Updates: false
+[19:54:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:54:21] [Server thread/INFO]: Max TNT Explosions: 100
+[19:54:21] [Server thread/INFO]: Mob Spawn Range: 4
+[19:54:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:54:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[19:54:21] [Server thread/INFO]: Preparing start region for level 0 (Seed: 42)
+[19:54:22] [Server thread/INFO]: Preparing spawn area: 26%
+[19:54:23] [Server thread/INFO]: Preparing start region for level 1 (Seed: 42)
+[19:54:24] [Server thread/INFO]: Preparing start region for level 2 (Seed: 42)
+[19:54:24] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.2.1-2016-12-23
+[19:54:27] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[19:54:28] [Server thread/INFO]: [scriptcraft] underscore object is function
+[19:54:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:54:28] [Server thread/INFO]: Done (7.445s)! For help, type "help" or "?"
+[19:54:28] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[19:54:36] [User Authenticator #1/INFO]: UUID of player SavageSlayer5513 is 9967aca7-4b95-42e4-9ec9-be12212cb1aa
+[19:54:36] [Server thread/INFO]: SavageSlayer5513[/192.168.0.10:23301] logged in with entity id 146 at ([peaceful]-227.11139201851083, 75.0, 4.8380190753907995)
+[19:55:24] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 furnace
+[19:55:24] [Server thread/INFO]: [SavageSlayer5513: Given [Furnace] * 1 to SavageSlayer5513]
+[19:55:58] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak_plank 64
+[19:55:58] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak_plank]
+[19:56:08] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak 65
+[19:56:08] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak]
+[19:56:20] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 wood_plank
+[19:56:20] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:wood_plank]
+[19:57:24] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 wood 64
+[19:57:24] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:wood]
+[19:57:41] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak_plank
+[19:57:41] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak_plank]
+[19:59:24] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 126
+[19:59:24] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:126]
+[19:59:39] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 wooden_plank
+[19:59:39] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:wooden_plank]
+[19:59:46] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak_plank
+[19:59:46] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak_plank]
+[19:59:53] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 diamond_sword
+[19:59:53] [Server thread/INFO]: [SavageSlayer5513: Given [Diamond Sword] * 1 to SavageSlayer5513]
+[20:00:01] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak
+[20:00:01] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak]
+[20:00:05] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 wood
+[20:00:05] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:wood]
+[20:00:15] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 plank_oak
+[20:00:15] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:plank_oak]
+[20:00:26] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 birch_planks
+[20:00:26] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:birch_planks]
+[20:00:29] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 birch_plank
+[20:00:29] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:birch_plank]
+[20:01:28] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak_wood_planks
+[20:01:28] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak_wood_planks]
+[20:01:30] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak_wood_plank
+[20:01:30] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak_wood_plank]
+[20:01:34] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak_wood_plank
+[20:01:34] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak_wood_plank]
+[20:01:41] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak_wood
+[20:01:41] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak_wood]
+[20:01:52] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oakplank
+[20:01:52] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oakplank]
+[20:01:59] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513 oak_planks
+[20:01:59] [Server thread/INFO]: [SavageSlayer5513: There is no such item with name minecraft:oak_planks]
+[20:03:01] [Server thread/INFO]: There is no such item with name minecraft:5
+[20:03:14] [Server thread/INFO]: There is no such item with name minecraft:acacia_wood_plank
+[20:03:20] [Server thread/INFO]: There is no such item with name minecraft:acacia
+[20:03:42] [Server thread/INFO]: There is no such item with name minecraft:2
+[20:04:07] [Server thread/INFO]: Given [Coarse Dirt] * 1 to SavageSlayer5513
+[20:04:41] [Server thread/INFO]: There is no such item with name minecraft:spruce_wood_plank
+[20:04:46] [Server thread/INFO]: There is no such item with name minecraft:spruce
+[20:04:52] [Server thread/INFO]: There is no such item with name minecraft:spruce_plank
+[20:04:57] [Server thread/INFO]: There is no such item with name minecraft:spruce_wood
+[20:05:02] [Server thread/INFO]: There is no such item with name minecraft:spruce
+[20:05:17] [Server thread/INFO]: There is no such item with name minecraft:5
+[20:05:26] [Server thread/INFO]: There is no such item with name minecraft:wooden_plank
+[20:05:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[20:05:42] [Server thread/INFO]: SavageSlayer5513 issued server command: /give SavageSlayer5513dww
+[20:19:03] [Server thread/INFO]: There is no such item with name minecraft:5
