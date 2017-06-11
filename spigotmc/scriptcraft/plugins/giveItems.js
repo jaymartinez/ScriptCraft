@@ -1,12 +1,18 @@
-var utils = require('utils');
-var name = "SavageSlayer5513";
-var player = utils.player(name);
-var items = require('items');
-var inventory = require('inventory');
-
+var utils  = require('utils'), 
+    name   = "", 
+    player = null, 
+    items  = require('items'), 
+    inv    = require('inventory');
 
 /**Gives the user a bunch of stuff when they join */
-function givePlayerEverything(event) {
+function givePlayerStuff(event) {
+    var name = event.player.name;
+    console.log(">>> " + name);
+    if (!name) {
+      name = "bannerpilot";
+      player = utils.player(name);
+    }
+
     echo(event.player||player, "Welcome to " + __plugin);
     console.log(">>> Player Joined!! >>> Items is " + typeof items + " >>> Player is " + typeof player);
 
@@ -23,10 +29,10 @@ function givePlayerEverything(event) {
     console.log(">>> World: %s, x: %f, y: %f, z: %f, yaw: %f, pitch: %f",
         location.world,location.x,location.y,location.z,location.yaw,location.pitch);
 
-    inventory(event.player).add(items.wool(50))
+    inv(event.player).add(items.wool(50))
         .add(items.cookie(10))
         .add(items.bedrock(50))
-        .add(items.birchFenceGate(50))
+        .add(items.birchFenceGate(5))
         .add(items.bone(10))
         .add(items.bow(1))
         .add(items.arrow(64))
@@ -50,7 +56,7 @@ function givePlayerEverything(event) {
         ;
 }
 
-events.playerJoin(givePlayerEverything);
+events.playerJoin(givePlayerStuff);
 
 
 /* Strikes lightning at the location the player is looking at.

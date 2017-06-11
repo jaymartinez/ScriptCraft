@@ -23,7 +23,7 @@ function onArrowHit(event) {
         world = projectile.world,
         shooter = projectile.shooter,
         arrowType;
-    
+
     if (projectile instanceof bkArrow 
         && shooter instanceof bkPlayer) {
 
