@@ -7,3 +7,6 @@ src/**/*
 *.dat
 *.mca
 *.log
+*.log.gz
+/spigotmc/world/advancements
+/spigotmc/world/stats
