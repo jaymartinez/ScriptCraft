@@ -29,7 +29,6 @@ function givePlayerStuff(event) {
     console.log(">>> World: %s, x: %f, y: %f, z: %f, yaw: %f, pitch: %f",
         location.world,location.x,location.y,location.z,location.yaw,location.pitch);
 
-/*
     inv(event.player).add(items.wool(50))
         .add(items.cookie(10))
         .add(items.bedrock(50))
@@ -55,9 +54,8 @@ function givePlayerStuff(event) {
         .add(items.diamondChestplate(1))
         .add(items.diamondBoots(1))
         ;
-	*/
 }
 
-//events.playerJoin(givePlayerStuff);
+events.playerJoin(givePlayerStuff);
 
 
