@@ -1,35 +1,24 @@
-var utils  = require('utils'), 
-    name   = "", 
-    player = null, 
-    items  = require('items'), 
-    inv    = require('inventory');
+exports.giveItems = (function (_, utils, items) {
+    this.name = "";
+    this.player = null;
+    //this.items = new items();
 
-/**Gives the user a bunch of stuff when they join */
-function givePlayerStuff(event) {
-    var name = event.player.name;
-    console.log(">>> " + name);
-    if (!name) {
-      name = "bannerpilot";
-      player = utils.player(name);
-    }
+    console.log('events is ' + typeof events);
+    console.log('items ' + typeof items.prototype);
+    console.log('underscore is ' + typeof _);
 
-    echo(event.player||player, "Welcome to " + __plugin);
-    console.log(">>> Player Joined!! >>> Items is " + typeof items + " >>> Player is " + typeof player);
+    function givePlayerStuff (event) {
+        var player = event.player;
+        var location = utils.getPlayerPos(player.name); //utils.locationToJSON();
+        console.log(">>> World: %s, x: %f, y: %f, z: %f, yaw: %f, pitch: %f",
+            location.world,location.x,location.y,location.z,location.yaw,location.pitch);
+        console.log("items is: " + typeof items);
+       // echo(event.player||player, "Welcome to " + __plugin);
+        console.log(">>> Player Joined!! >>> Items is " + typeof items + " >>> Player is " + typeof player);
+        console.log("type of material = " + typeof Material);
 
-    /* should return
-    { world: 'world5',
-        x: 56.9324,
-        y: 103.9954,
-        z: 43.1323,
-        yaw: 0.0,
-        pitch: 0.0
-    }
-    */
-    var location = utils.getPlayerPos(name); //utils.locationToJSON();
-    console.log(">>> World: %s, x: %f, y: %f, z: %f, yaw: %f, pitch: %f",
-        location.world,location.x,location.y,location.z,location.yaw,location.pitch);
-
-    inv(event.player).add(items.wool(50))
+        /*
+        inv(event.player).add(items.wool(50))
         .add(items.cookie(10))
         .add(items.bedrock(50))
         .add(items.birchFenceGate(5))
@@ -54,8 +43,14 @@ function givePlayerStuff(event) {
         .add(items.diamondChestplate(1))
         .add(items.diamondBoots(1))
         ;
-}
+        */
+    };
+    
+    events.blockBreak(function (event) {
+        
+    });
+    events.playerJoin(_.bind(givePlayerStuff, this));
+    return this;
 
-events.playerJoin(givePlayerStuff);
-
+})(require('underscore'), require('utils'), require('../modules/items.js'));
 

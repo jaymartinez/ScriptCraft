@@ -7,6 +7,7 @@ var items = function(material, amount) {
 };
 
 var materials = bkMaterial.values();
+console.log("type of materials in items.js is " + typeof materials);
 
 for (var i = 0; i < materials.length; i++) {
   var name = ('' + materials[i].name()).toLowerCase();
