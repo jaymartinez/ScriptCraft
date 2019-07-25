@@ -13,7 +13,6 @@ exports.giveItemsObject =
                 if (typeof items[prop] !== "function") {
                     continue;
                 }
-                //console.log("Name: " + prop + "\n" + "Value: " + items[prop] + "\n");
                 console.log(prop + " is " + typeof items[prop]);
                 inv(player).add(items[prop](10));
             }
